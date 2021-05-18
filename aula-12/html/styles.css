@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  /* padding: 0; */
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 800px;
+  margin: auto;
+  /* background-color: #333; */
+  color: #555;
+  /* RGB ou RED GREEN BLUE vão de 0 a 255, sendo 0 o mínimo de cor e 255 o máximo de cor */
+  /* background-color: rgb(120, 20, 255); */
+  /* background-color: rgba(120, 20, 255, 0.5); */
+}
+
+button {
+  cursor: pointer;
+}
+
+.formButton {
+  border: none;
+  border-radius: 4px;
+  background-color: steelblue;
+  color: #fff;
+}
+
+#restApiArticle {
+  font-size: 10px;
+}
