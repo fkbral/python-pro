@@ -1,0 +1,34 @@
+h1 {
+  text-align: center;
+}
+ul {
+  text-align: left;
+  padding: 0;
+}
+li {
+  list-style: none;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+li footer {
+  text-align: center;
+}
+
+img {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+}
+
+.userName {
+  font-weight: 600;
+}
+
+.userOccupation {
+  color: #555;
+}
