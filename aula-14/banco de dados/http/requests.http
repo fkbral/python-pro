@@ -1,0 +1,31 @@
+GET http://127.0.0.1:5000/users
+
+###
+
+POST http://127.0.0.1:5000/users
+Content-Type: application/json
+
+{
+  "name": "Ciclano da Silva",
+  "email": "ciclanodasilva@email.com"
+}
+
+###
+
+PUT http://127.0.0.1:5000/users
+Content-Type: application/json
+
+{
+  "name": "Ciclano da Vila",
+  "email": "ciclanodasilva@email.com",
+  "new_email": "ciclanodavila@email.com"
+}
+
+###
+
+DELETE http://127.0.0.1:5000/users
+Content-Type: application/json
+
+{
+  "email": "ciclanodavila@email.com"
+}
